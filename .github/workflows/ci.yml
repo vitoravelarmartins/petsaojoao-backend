@@ -15,8 +15,5 @@ jobs:
     - name: Install dependencies
       run: yarn
 
-    - name: Check tests
-      run: yarn test --coverage
-
     # - name: Check linting
     #   run: yarn lint
