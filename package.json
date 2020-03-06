@@ -23,6 +23,7 @@
     "babel-preset-env": "^1.7.0",
     "jest": "^25.1.0",
     "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1",
     "sucrase": "^3.12.1"
   }
 }
