@@ -1,14 +1,14 @@
-import request from 'supertest';
-import server from '../server';
+import request from "supertest";
+import server from "../server";
 
 afterAll(() => {
-server.close();
+  server.close();
 });
 
-describe('initial tests', () => {
-  test('api route', async () => {
-     const response = await request(server).get('/api');
+describe("initial tests", () => {
+  test("api route", async () => {
+    const response = await request(server).get("/api");
 
-     expect(response.status).toEqual(200);
+    expect(response.status).toEqual(200);
   });
 });
