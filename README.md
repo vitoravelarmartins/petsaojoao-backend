@@ -1,4 +1,3 @@
-  
 ![Logo Pet São João]
 
 # "Pet São João"'s oficial backend repository
