@@ -16,4 +16,4 @@ jobs:
         run: yarn install
 
       - name: Check tests
-        run: yarn jest src/test
+        run: yarn jest src/tests
