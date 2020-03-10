@@ -7,7 +7,7 @@
     "dev": "nodemon src/server",
     "build": "babel src -s -D -d dist",
     "start": "node dist/server",
-    "test": "echo 'hello test'"
+    "test": "jest src/tests"
   },
   "jest": {
     "transform": {
