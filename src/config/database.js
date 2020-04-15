@@ -2,14 +2,14 @@ module.exports = {
   development: {
     username: "postgres",
     password: "example",
-    database: "petsaojoao",
+    database: "petsaojoao_dev",
     host: "localhost",
     dialect: "postgres",
   },
   test: {
     username: "postgres",
     password: "example",
-    database: "petsaojoao",
+    database: "petsaojoao_test",
     host: "localhost",
     dialect: "postgres",
   },

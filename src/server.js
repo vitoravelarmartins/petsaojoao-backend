@@ -6,4 +6,4 @@ const app = express();
 
 app.use("/api", routes);
 
-export default app.listen(process.env.PORT || 3333);
+export default app.listen(process.env.PORT || 3000);
