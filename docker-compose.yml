@@ -10,11 +10,9 @@ services:
       - "3000:3000"
     depends_on:
       - postgres
-    environment:
-      DATABASE_URL: postgres://apppetsaojoao@postgres/petsaojoao
   postgres:
-    image: postgres:12.2-alpine
+    image: postgres:12
     environment:
-      POSTGRES_USER: petsaojoao
-      POSTGRES_DB: psjdb
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_DB: petsaojoao_dev
+      POSTGRES_PASSWORD: example
