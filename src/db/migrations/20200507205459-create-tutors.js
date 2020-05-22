@@ -37,7 +37,8 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING(100),
       },
-      number: Sequelize.INTEGER,
+      number: Sequelize.STRING(30),
+      complement: Sequelize.STRING(30),
       area: Sequelize.STRING(100),
       created_at: {
         allowNull: false,
